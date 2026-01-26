@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/about/page": "app/about/page.js",
+  "/auth/login/page": "app/auth/login/page.js",
+  "/auth/sign-up/page": "app/auth/sign-up/page.js",
+  "/auth/verify-email/page": "app/auth/verify-email/page.js",
+  "/book-consultation/page": "app/book-consultation/page.js",
+  "/page": "app/page.js",
+  "/programs/digital-ai-skills/page": "app/programs/digital-ai-skills/page.js",
+  "/programs/digital-skills/page": "app/programs/digital-skills/page.js",
+  "/programs/online-one-on-one/page": "app/programs/online-one-on-one/page.js",
+  "/programs/physical-learning-hub/page": "app/programs/physical-learning-hub/page.js",
+  "/programs/reading-club/page": "app/programs/reading-club/page.js"
+}

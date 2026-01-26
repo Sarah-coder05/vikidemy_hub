@@ -1,0 +1,38 @@
+export const countryCodes = [
+  { code: "+234", country: "Nigeria", iso: "NG" },
+  { code: "+1", country: "United States", iso: "US" },
+  { code: "+44", country: "United Kingdom", iso: "GB" },
+  { code: "+91", country: "India", iso: "IN" },
+  { code: "+86", country: "China", iso: "CN" },
+  { code: "+81", country: "Japan", iso: "JP" },
+  { code: "+49", country: "Germany", iso: "DE" },
+  { code: "+33", country: "France", iso: "FR" },
+  { code: "+971", country: "UAE", iso: "AE" },
+  { code: "+27", country: "South Africa", iso: "ZA" },
+  { code: "+254", country: "Kenya", iso: "KE" },
+  { code: "+233", country: "Ghana", iso: "GH" },
+];
+
+export const countries = [
+  "Nigeria",
+  "United States",
+  "United Kingdom",
+  "India",
+  "China",
+  "Japan",
+  "Germany",
+  "France",
+  "UAE",
+  "South Africa",
+  "Kenya",
+  "Ghana",
+  "Canada",
+  "Australia",
+  "Brazil",
+  "Mexico",
+  "Italy",
+  "Spain",
+  "Netherlands",
+  "Switzerland",
+  // Add more countries as needed
+];

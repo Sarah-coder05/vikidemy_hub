@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "tailwindcss";
+
+body {
+  font-family: "Inter", sans-serif; /* or poppins if you prefer */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .btn-primary {
+    @apply text-white px-6 py-3 rounded-lg font-medium
+           hover:bg-gray-800 transition disabled:opacity-50;
+  }
+
+  .btn-secondary {
+    @apply border border-gray-300 text-gray-800 px-6 py-3 rounded-lg
+           hover:bg-gray-100 transition;
+  }
+
+  .input-field {
+    @apply w-full rounded-lg border border-gray-300 px-4 py-3
+           focus:outline-none focus:ring-2 focus:ring-gray-800;
+  }
+
+  .auth-card {
+    @apply w-full max-w-md rounded-2xl bg-white p-8 shadow-lg;
+  }
+
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16;
+  }
+}
+.clip-arrow {
+  clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%, 8% 50%);
+}
+
+.perspective {
+  perspective: 1200px;
+}
+
+.transform-style {
+  transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}

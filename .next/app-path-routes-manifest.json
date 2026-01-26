@@ -1,0 +1,15 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/auth/login/page": "/auth/login",
+  "/auth/sign-up/page": "/auth/sign-up",
+  "/auth/verify-email/page": "/auth/verify-email",
+  "/book-consultation/page": "/book-consultation",
+  "/page": "/",
+  "/programs/digital-ai-skills/page": "/programs/digital-ai-skills",
+  "/programs/digital-skills/page": "/programs/digital-skills",
+  "/programs/online-one-on-one/page": "/programs/online-one-on-one",
+  "/programs/physical-learning-hub/page": "/programs/physical-learning-hub",
+  "/programs/reading-club/page": "/programs/reading-club"
+}
