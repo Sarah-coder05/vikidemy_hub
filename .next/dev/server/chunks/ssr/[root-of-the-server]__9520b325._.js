@@ -687,16 +687,16 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$ico
 const testimonials = [
     {
         name: "Ana",
-        location: "",
-        role: "",
+        location: "Italy",
+        role: "Student",
         date: "July 17, 2025",
         rating: 5,
         message: "Victoria is an excellent teacher. I’ve been improving my pronunciation and learning new vocabulary. I highly recommend her."
     },
     {
         name: "Basmah",
-        location: "",
-        role: "",
+        location: "Saudi Arabia",
+        role: "Student",
         date: "July 1, 2025",
         rating: 5,
         message: "I really enjoy learning with teacher Victoria. She is very kind, helpful, and makes the lesson fun and interesting. She explains things clearly and gives me the confidence to speak without fear. I’m happy to have her as my English teacher."

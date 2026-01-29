@@ -1,5 +1,3 @@
-import Footer from "@/components/sections/Footer";
-
 export default function AboutPage() {
   return (
     <main className="bg-white mt-18 text-gray-900">

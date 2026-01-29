@@ -1,6 +1,6 @@
 import { FiStar } from "react-icons/fi";
 
-type Testimonial = {
+type testimonials = {
   name: string;
   date?: string;
   location: string;
@@ -12,8 +12,8 @@ type Testimonial = {
 const testimonials = [
   {
     name: "Ana",
-    location: "",
-    role: "",
+    location: "Italy",
+    role: "Student",
     date: "July 17, 2025",
     rating: 5,
     message:
@@ -21,8 +21,8 @@ const testimonials = [
   },
   {
     name: "Basmah",
-    location: "",
-    role: "",
+    location: "Saudi Arabia",
+    role: "Student",
     date: "July 1, 2025",
     rating: 5,
     message:
