@@ -1,0 +1,6 @@
+{
+  "/book-consultation/page": "app/book-consultation/page.js",
+  "/page": "app/page.js",
+  "/programs/physical-learning-hub/page": "app/programs/physical-learning-hub/page.js",
+  "/programs/reading-club/page": "app/programs/reading-club/page.js"
+}

@@ -8,7 +8,7 @@ export default function ProgramsSection() {
     <section className="bg-white py-20 px-8">
       <div className="mx-auto max-w-7xl">
         {/* Heading */}
-        <h2 className="mb-12 text-center text-3xl md:text-4xl font-bold">
+        <h2 className="mx-auto mb-4 max-w-4xl text-center text-4xl font-600 text-gray-900 md:text-5xl">
           Our <span className="text-cyan-500">Programs</span>
         </h2>
 

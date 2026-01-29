@@ -6,23 +6,22 @@ import Image from "next/image";
 
 export default function SolutionSection() {
   return (
-    <section className="py-20 px-6 lg:px-16 bg-gray-50">
+    <section className="bg-gray-50 py-16 sm:py-20 px-4 sm:px-6 lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
-        <div className="mb-16">
-          <h2 className="text-4xl md:text-4xl text-center lg:text-5xl font-600 text-gray-900 mb-6 max-w-6xl">
+        <div className="mb-12 sm:mb-16 text-center">
+          <h2 className="mx-auto mb-4 max-w-4xl text-3xl font-600 text-gray-900 md:text-5xl">
             A structured learning system built <br />
             around each learner
           </h2>
         </div>
 
-        {/* Cards Grid - All same size */}
-
-        <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-6 pl-10 lg:gap-8">
-          {/* Card 1 */}
-          <div className="">
+        {/* Grid */}
+        <div className="grid grid-cols-1 justify-center items-center gap-6 md:grid-cols-3 md:gap-8 md:pl-10">
+          {/* 1) Card - Left (centered vertically on desktop) */}
+          <div className="md:col-start-1 md:row-span-2 flex md:items-center">
             <div
-              className="group relative overflow-hidden max-w-sm p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
+              className="group relative overflow-hidden w-full max-w-sm mx-auto p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
               style={{ borderRadius: "60px 0 60px 0" }}
             >
               <div>
@@ -40,10 +39,26 @@ export default function SolutionSection() {
             </div>
           </div>
 
-          <div className="flex flex-col gap-12">
-            {/* Card 2 */}
+          {/* 2) Image - Right top (desktop: col 3 row 1) */}
+          <div className="md:col-start-3 md:row-start-1">
             <div
-              className="group relative overflow-hidden max-w-sm p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
+              className="group relative overflow-hidden w-full max-w-sm mx-auto bg-gray-100 aspect-square"
+              style={{ borderRadius: "60px 0 60px 0" }}
+            >
+              <Image
+                src={hero}
+                alt="Learning moment"
+                fill
+                priority
+                className="object-cover"
+              />
+            </div>
+          </div>
+
+          {/* 3) Card - Middle top (desktop: col 2 row 1) */}
+          <div className="md:col-start-2 md:row-start-1">
+            <div
+              className="group relative overflow-hidden w-full max-w-sm mx-auto p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
               style={{ borderRadius: "60px 0 60px 0" }}
             >
               <div>
@@ -59,43 +74,28 @@ export default function SolutionSection() {
                 </p>
               </div>
             </div>
+          </div>
 
-            {/* Card 3 */}
+          {/* 4) Image - Middle bottom (desktop: col 2 row 2) */}
+          <div className="md:col-start-2 md:row-start-2">
             <div
-              className="group relative overflow-hidden max-w-sm p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
+              className="group relative overflow-hidden w-full max-w-sm mx-auto bg-gray-100 aspect-square"
               style={{ borderRadius: "60px 0 60px 0" }}
             >
-              <div>
-                <Image
-                  src={baby}
-                  alt="Hero background"
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
+              <Image
+                src={baby}
+                alt="Child learning"
+                fill
+                priority
+                className="object-cover"
+              />
             </div>
           </div>
-          <div className="flex flex-col gap-12">
-            {/* Card 2 */}
-            <div
-              className="group relative overflow-hidden max-w-sm p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
-              style={{ borderRadius: "60px 0 60px 0" }}
-            >
-              <div>
-                <Image
-                  src={hero}
-                  alt="Hero background"
-                  fill
-                  priority
-                  className="object-cover"
-                />
-              </div>
-            </div>
 
-            {/* Card 3 */}
+          {/* 5) Card - Right bottom (desktop: col 3 row 2) */}
+          <div className="md:col-start-3 md:row-start-2">
             <div
-              className="group relative overflow-hidden max-w-sm p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
+              className="group relative overflow-hidden w-full max-w-sm mx-auto p-8 bg-gray-100 hover:bg-[#1ea8d1] transition-all duration-500 cursor-pointer aspect-square flex flex-col justify-between"
               style={{ borderRadius: "60px 0 60px 0" }}
             >
               <div>
@@ -115,7 +115,7 @@ export default function SolutionSection() {
         </div>
 
         {/* Bridge Line */}
-        <div className="text-center mt-16 mb-8">
+        <div className="text-center mt-12 sm:mt-16 mb-6 sm:mb-8">
           <p className="text-lg md:text-xl font-medium text-gray-800 max-w-3xl mx-auto">
             Learning doesn&apos;t improve by adding more hours — it improves
             when the right system is in place.
