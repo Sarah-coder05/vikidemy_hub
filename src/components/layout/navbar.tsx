@@ -32,12 +32,12 @@ export default function Navbar() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:block">
-            <ul className="flex items-center gap-6">
+            <ul className="flex items-center gap-12">
               {data.map((item) => (
                 <li key={item.title}>
                   <Link
                     href={item.href}
-                    className="text-[18px] font-medium transition hover:text-gray-300"
+                    className="text-[18px]  transition hover:text-[#2eb6dc]"
                   >
                     {item.title}
                   </Link>

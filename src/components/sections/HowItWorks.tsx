@@ -124,7 +124,7 @@ export default function SolutionSection() {
 
         {/* CTA */}
         <div className="text-center">
-          <Link
+          {/* <Link
             href="/programs"
             className="inline-flex items-center text-[#1ea8d1] font-semibold hover:text-orange-700 transition-colors group"
           >
@@ -132,7 +132,7 @@ export default function SolutionSection() {
             <span className="ml-2 group-hover:translate-x-1 transition-transform">
               →
             </span>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </section>

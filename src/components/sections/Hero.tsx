@@ -26,7 +26,7 @@ export default function Hero() {
         {/* Text section */}
         <div className="flex-1 px-4 sm:px-6 lg:pl-10 flex flex-col justify-center py-12 sm:py-16 lg:py-20 text-centr lg:text-left">
           <div className="mx-auto w-full max-w-2xl lg:mx-0">
-            <h1 className="mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-medium text-gray-900">
+            <h1 className="mb-4 text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-500 text-gray-900">
               Personalized learning that helps children stand out academically.
             </h1>
 

@@ -25,7 +25,8 @@ export default function LearningGapSection() {
   return (
     <section className="mx-auto max-w-7xl bg-white px-4 py-20 text-center">
       <h2 className="mx-auto mb-4 max-w-4xl text-3xl font-600 text-gray-900 md:text-5xl">
-        Where modern learning needs stronger support
+        Where modern learning needs
+        <br /> stronger support
       </h2>
       <p className="mx-auto mb-14 text-lg max-w-3xl text-base text-gray-500">
         Learning environments do a lot of good — but many learners still need

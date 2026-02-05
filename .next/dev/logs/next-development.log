@@ -1,7 +1,6 @@
-[00:00:02.290] Server  LOG     ✓ Ready in 1641ms
-[00:00:16.055] Server  LOG     ○ Compiling / ...
-[00:00:22.166] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:22.893] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:04.614] Server  LOG     ✓ Ready in 4s
+[00:00:40.226] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:41.960] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -14,215 +13,48 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    ...
-      <div data-orientation="vertical" onKeyDown={function handleEvent} ref={function}>
-        <AccordionItem value="Courses">
-          <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_1...">
-            <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ref={null} ...>
-              <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_9..." open={false} ...>
-                <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                  <div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                    <AccordionTrigger>
-                      <AccordionCollectionItemSlot scope={undefined}>
-                        <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
-                          <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
-                            <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" id="radix-_R_1..." ...>
-                              <Primitive.button type="button" aria-controls="radix-_R_9..." aria-expanded={false} ...>
-                                <button
-                                  type="button"
-+                                 aria-controls="radix-_R_9d6lb_"
--                                 aria-controls="radix-_R_15kplb_"
-                                  aria-expanded={false}
-                                  data-state="closed"
-                                  data-disabled={undefined}
-                                  disabled={undefined}
-                                  aria-disabled={undefined}
-                                  data-orientation="vertical"
-+                                 id="radix-_R_1d6lb_"
--                                 id="radix-_R_5kplb_"
-                                  data-radix-collection-item=""
-                                  onClick={function handleEvent}
-                                  ref={function}
-                                >
-                    <AccordionContent className="px-5">
-                      <CollapsibleContent role="region" aria-labelledby="radix-_R_1..." data-orientation="vertical" ...>
-                        <Presence present={false}>
-                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_9..." hidden={true} ...>
-                            <div
-                              data-state="closed"
-                              data-disabled={undefined}
-+                             id="radix-_R_9d6lb_"
--                             id="radix-_R_15kplb_"
-                              hidden={true}
-                              role="region"
-+                             aria-labelledby="radix-_R_1d6lb_"
--                             aria-labelledby="radix-_R_5kplb_"
-                              data-orientation="vertical"
-                              className="px-5"
-                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
-                              ref={function}
-                            >
-    ...
-      <div data-orientation="vertical" onKeyDown={function handleEvent} ref={function}>
-        <AccordionItem value="Product">
-          <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_2...">
-            <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ref={null} ...>
-              <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_a..." open={false} ...>
-                <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                  <div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                    <AccordionTrigger>
-                      <AccordionCollectionItemSlot scope={undefined}>
-                        <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
-                          <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
-                            <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" id="radix-_R_2..." ...>
-                              <Primitive.button type="button" aria-controls="radix-_R_a..." aria-expanded={false} ...>
-                                <button
-                                  type="button"
-+                                 aria-controls="radix-_R_ad6lb_"
--                                 aria-controls="radix-_R_19kplb_"
-                                  aria-expanded={false}
-                                  data-state="closed"
-                                  data-disabled={undefined}
-                                  disabled={undefined}
-                                  aria-disabled={undefined}
-                                  data-orientation="vertical"
-+                                 id="radix-_R_2d6lb_"
--                                 id="radix-_R_9kplb_"
-                                  data-radix-collection-item=""
-                                  onClick={function handleEvent}
-                                  ref={function}
-                                >
-                    <AccordionContent className="px-5">
-                      <CollapsibleContent role="region" aria-labelledby="radix-_R_2..." data-orientation="vertical" ...>
-                        <Presence present={false}>
-                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_a..." hidden={true} ...>
-                            <div
-                              data-state="closed"
-                              data-disabled={undefined}
-+                             id="radix-_R_ad6lb_"
--                             id="radix-_R_19kplb_"
-                              hidden={true}
-                              role="region"
-+                             aria-labelledby="radix-_R_2d6lb_"
--                             aria-labelledby="radix-_R_9kplb_"
-                              data-orientation="vertical"
-                              className="px-5"
-                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
-                              ref={function}
-                            >
-    ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1271.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-[00:00:22.893] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:00:22.894] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:22.894] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:00:24.025] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:00:24.025] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:00:30.034] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:56.855] Server  LOG     ✓ Compiled in 104ms
-[00:01:09.076] Server  LOG     ✓ Compiled in 82ms
-[00:01:14.068] Server  LOG     ✓ Compiled in 54ms
-[00:01:22.908] Server  LOG     ✓ Compiled in 123ms
-[00:01:35.994] Server  LOG     ✓ Compiled in 52ms
-[00:01:41.359] Server  LOG     ✓ Compiled in 39ms
-[00:01:49.239] Server  LOG     ✓ Compiled in 98ms
-[00:01:57.021] Server  LOG     ✓ Compiled in 100ms
-[00:02:08.276] Server  LOG     ✓ Compiled in 44ms
-[00:02:11.281] Server  LOG     ✓ Compiled in 37ms
-[00:02:21.969] Server  LOG     ✓ Compiled in 51ms
-[00:02:27.274] Server  LOG     ✓ Compiled in 97ms
-[00:03:59.167] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:03:59.167] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:03:59.651] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:07:19.691] Server  LOG     ✓ Compiled in 299ms
-[00:07:19.778] Browser ERROR   unhandledRejection: Error: No link element found for chunk /_next/static/chunks/src_app_globals_91e4631d.css
-[00:08:56.860] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:08:57.424] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[00:08:57.424] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:57.424] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:08:57.424] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[00:08:57.424] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" and parent element with invalid "position". Provided "static" should be one of absolute,fixed,relative.
-[00:10:47.090] Server  LOG     ✓ Compiled in 161ms
-[00:10:49.738] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:10:53.226] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:10:55.445] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:10:58.941] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:00.076] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:00.324] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:00.527] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:01.417] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:01.664] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:01.916] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:02.709] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:03.589] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:04.696] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:06.204] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:16.947] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:17.448] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:17.632] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:17.821] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:25.191] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:11:26.244] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:13:08.441] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:13:09.695] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:13:10.131] Browser ERROR   uncaughtError: TypeError: onActivate is not a function
-[00:14:09.903] Server  LOG     ✓ Compiled in 57ms
-[00:14:45.075] Server  LOG     ✓ Compiled in 64ms
-[00:15:05.667] Server  LOG     ✓ Compiled in 49ms
-[00:18:54.485] Server  LOG     ✓ Compiled in 165ms
-[00:19:02.814] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:21:26.932] Server  LOG     ✓ Compiled in 2.3s
-[00:23:40.732] Server  LOG     ✓ Compiled in 153ms
-[00:24:39.452] Server  LOG     ✓ Compiled in 153ms
-[00:26:04.524] Server  LOG     ✓ Compiled in 104ms
-[00:30:34.637] Server  LOG     ✓ Compiled in 291ms
-[00:51:54.155] Browser ERROR   ./src/components/sections/HowItWorks.tsx:14:15
-Parsing ecmascript source code failed
-  12 |         <div className="mb-16">
-  13 |           <h2 className="mx-auto mb-4 max-w-4xl text-3xl font-600 text-gray-900 md:text-5xl">
-> 14 |         </div>
-     |               ^
-> 15 |
-     | ^
-> 16 |         {/* Cards Grid - All same size */}
-     | ^^^^^^^^^
-  17 |
-  18 |         <div className="grid grid-cols-1 md:grid-cols-3 justify-center items-center gap-6 pl-10 lg:gap-8">
-  19 |           {/* Card 1 */}
-
-Expected '</', got 'jsx text (
-
-        )'
-
-Import trace:
-  Server Component:
-    ./src/components/sections/HowItWorks.tsx
-    ./src/app/page.tsx
-[00:52:23.119] Server  LOG     ✓ Compiled in 69ms
-[01:12:48.038] Server  LOG     ✓ Compiled in 839ms
-[01:16:29.846] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:16:30.304] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[01:16:30.421] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:16:30.421] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[01:23:40.178] Server  LOG     ✓ Compiled in 162ms
-[01:23:54.531] Server  LOG     ✓ Compiled in 49ms
-[01:24:24.843] Server  LOG     ✓ Compiled in 49ms
-[01:25:09.653] Server  LOG     ✓ Compiled in 59ms
-[01:25:18.194] Server  LOG     ✓ Compiled in 87ms
-[01:25:25.924] Server  LOG     ✓ Compiled in 53ms
-[01:25:30.584] Server  LOG     ✓ Compiled in 47ms
-[01:25:39.573] Server  LOG     ✓ Compiled in 50ms
-[01:25:43.361] Server  LOG     ✓ Compiled in 88ms
-[01:25:54.374] Server  LOG     ✓ Compiled in 42ms
-[01:25:58.556] Server  LOG     ✓ Compiled in 55ms
-[01:26:07.688] Server  LOG     ✓ Compiled in 41ms
-[01:26:15.674] Server  LOG     ✓ Compiled in 53ms
-[01:37:57.930] Server  LOG     ✓ Compiled in 157ms
-[01:39:06.615] Server  LOG     ✓ Compiled in 932ms
-[01:39:10.003] Server  ERROR   ⨯ ReferenceError: testimonials is not defined
-[01:39:10.330] Browser ERROR   uncaughtError: ReferenceError: testimonials is not defined
-[01:46:16.012] Server  LOG     ✓ Compiled in 127ms
-[01:46:19.122] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[01:46:19.609] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:41.960] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:00:41.960] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:00:41.960] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:02:28.422] Server  LOG     ✓ Compiled in 183ms
+[00:03:57.878] Server  LOG     ✓ Compiled in 119ms
+[00:04:54.943] Server  LOG     ✓ Compiled in 66ms
+[00:07:02.676] Server  LOG     ✓ Compiled in 87ms
+[00:07:14.235] Server  LOG     ✓ Compiled in 66ms
+[00:07:20.274] Server  LOG     ✓ Compiled in 43ms
+[00:07:37.915] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:38.137] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[00:07:38.137] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -235,108 +67,37 @@ It can also happen if the client has a browser extension installed which messes 
 %s%s https://react.dev/link/hydration-mismatch 
 
   ...
-    ...
-      <div data-orientation="vertical" onKeyDown={function handleEvent} ref={function}>
-        <AccordionItem value="Courses">
-          <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_1...">
-            <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ref={null} ...>
-              <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_9..." open={false} ...>
-                <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                  <div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                    <AccordionTrigger>
-                      <AccordionCollectionItemSlot scope={undefined}>
-                        <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
-                          <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
-                            <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" id="radix-_R_1..." ...>
-                              <Primitive.button type="button" aria-controls="radix-_R_9..." aria-expanded={false} ...>
-                                <button
-                                  type="button"
-+                                 aria-controls="radix-_R_9d6lb_"
--                                 aria-controls="radix-_R_15kplb_"
-                                  aria-expanded={false}
-                                  data-state="closed"
-                                  data-disabled={undefined}
-                                  disabled={undefined}
-                                  aria-disabled={undefined}
-                                  data-orientation="vertical"
-+                                 id="radix-_R_1d6lb_"
--                                 id="radix-_R_5kplb_"
-                                  data-radix-collection-item=""
-                                  onClick={function handleEvent}
-                                  ref={function}
-                                >
-                    <AccordionContent className="px-5">
-                      <CollapsibleContent role="region" aria-labelledby="radix-_R_1..." data-orientation="vertical" ...>
-                        <Presence present={false}>
-                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_9..." hidden={true} ...>
-                            <div
-                              data-state="closed"
-                              data-disabled={undefined}
-+                             id="radix-_R_9d6lb_"
--                             id="radix-_R_15kplb_"
-                              hidden={true}
-                              role="region"
-+                             aria-labelledby="radix-_R_1d6lb_"
--                             aria-labelledby="radix-_R_5kplb_"
-                              data-orientation="vertical"
-                              className="px-5"
-                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
-                              ref={function}
-                            >
-    ...
-      <div data-orientation="vertical" onKeyDown={function handleEvent} ref={function}>
-        <AccordionItem value="Product">
-          <AccordionItemProvider scope={undefined} open={false} disabled={undefined} triggerId="radix-_R_2...">
-            <Collapsible data-orientation="vertical" data-state="closed" __scopeCollapsible={{...}} ref={null} ...>
-              <CollapsibleProvider scope={{...}} disabled={undefined} contentId="radix-_R_a..." open={false} ...>
-                <Primitive.div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                  <div data-state="closed" data-disabled={undefined} data-orientation="vertical" ref={null}>
-                    <AccordionTrigger>
-                      <AccordionCollectionItemSlot scope={undefined}>
-                        <AccordionCollectionItemSlot.Slot data-radix-collection-item="" ref={function}>
-                          <AccordionCollectionItemSlot.SlotClone data-radix-collection-item="" ref={function}>
-                            <CollapsibleTrigger aria-disabled={undefined} data-orientation="vertical" id="radix-_R_2..." ...>
-                              <Primitive.button type="button" aria-controls="radix-_R_a..." aria-expanded={false} ...>
-                                <button
-                                  type="button"
-+                                 aria-controls="radix-_R_ad6lb_"
--                                 aria-controls="radix-_R_19kplb_"
-                                  aria-expanded={false}
-                                  data-state="closed"
-                                  data-disabled={undefined}
-                                  disabled={undefined}
-                                  aria-disabled={undefined}
-                                  data-orientation="vertical"
-+                                 id="radix-_R_2d6lb_"
--                                 id="radix-_R_9kplb_"
-                                  data-radix-collection-item=""
-                                  onClick={function handleEvent}
-                                  ref={function}
-                                >
-                    <AccordionContent className="px-5">
-                      <CollapsibleContent role="region" aria-labelledby="radix-_R_2..." data-orientation="vertical" ...>
-                        <Presence present={false}>
-                          <Primitive.div data-state="closed" data-disabled={undefined} id="radix-_R_a..." hidden={true} ...>
-                            <div
-                              data-state="closed"
-                              data-disabled={undefined}
-+                             id="radix-_R_ad6lb_"
--                             id="radix-_R_19kplb_"
-                              hidden={true}
-                              role="region"
-+                             aria-labelledby="radix-_R_2d6lb_"
--                             aria-labelledby="radix-_R_9kplb_"
-                              data-orientation="vertical"
-                              className="px-5"
-                              style={{--radix-collapsible-content-height:undefined,--radix-collapsible-content-width:undefined, ...}}
-                              ref={function}
-                            >
-    ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/programs" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="layout.tsx">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <script>
+                      <RootLayout>
+                        <html lang="en">
+                          <body
+-                           data-new-gr-c-s-check-loaded="14.1271.0"
+-                           data-gr-ext-installed=""
+                          >
+                  ...
 
-[01:46:19.609] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
-[02:32:06.635] Server  LOG     ✓ Compiled in 318ms
-[02:36:05.440] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[02:36:36.312] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:36:36.312] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
-[02:41:44.976] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[02:41:45.511] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:38.137] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:42.319] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:43.058] Browser WARN    Image with src "/_next/static/media/smallLogo.52f6689e.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio.
+[00:07:43.058] Browser WARN    Image with src "/_next/static/media/hero1.bc582c72.jpeg" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
+[00:07:43.058] Browser WARN    Image with src "/_next/static/media/baby.7cf6c941.png" has "fill" but is missing "sizes" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes
